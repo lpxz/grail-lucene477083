@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/asf/!svn/ver/476359/lucene/java/trunk/src/java/org/apache/lucene/store
+END
+RAMInputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/store/RAMInputStream.java
+END
+RAMOutputStream.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/store/RAMOutputStream.java
+END
+NoLockFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/store/NoLockFactory.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/asf/!svn/ver/149828/lucene/java/trunk/src/java/org/apache/lucene/store/package.html
+END
+RAMFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/store/RAMFile.java
+END
+MMapDirectory.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/store/MMapDirectory.java
+END
+NativeFSLockFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/store/NativeFSLockFactory.java
+END
+LockFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/store/LockFactory.java
+END
+SimpleFSLockFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/store/SimpleFSLockFactory.java
+END
+IndexInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/store/IndexInput.java
+END
+Lock.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/store/Lock.java
+END
+IndexOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/store/IndexOutput.java
+END
+BufferedIndexInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/store/BufferedIndexInput.java
+END
+BufferedIndexOutput.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/store/BufferedIndexOutput.java
+END
+FSDirectory.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/asf/!svn/ver/476359/lucene/java/trunk/src/java/org/apache/lucene/store/FSDirectory.java
+END
+Directory.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/store/Directory.java
+END
+RAMDirectory.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/asf/!svn/ver/476359/lucene/java/trunk/src/java/org/apache/lucene/store/RAMDirectory.java
+END
+SingleInstanceLockFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/store/SingleInstanceLockFactory.java
+END

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/asf/!svn/ver/476359/lucene/java/trunk/src/test/org/apache/lucene/store
+END
+TestLockFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/asf/!svn/ver/476359/lucene/java/trunk/src/test/org/apache/lucene/store/TestLockFactory.java
+END
+TestLock.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/asf/!svn/ver/382158/lucene/java/trunk/src/test/org/apache/lucene/store/TestLock.java
+END
+TestBufferedIndexInput.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/asf/!svn/ver/469271/lucene/java/trunk/src/test/org/apache/lucene/store/TestBufferedIndexInput.java
+END
+_TestHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/asf/!svn/ver/165484/lucene/java/trunk/src/test/org/apache/lucene/store/_TestHelper.java
+END

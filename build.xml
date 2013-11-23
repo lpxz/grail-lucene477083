@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- WARNING: Eclipse auto-generated file.
+              Any modifications will be overwritten.
+              To include a user specific buildfile here, simply create one in the same
+              directory with the processing instruction <?eclipse.ant.import?>
+              as the first entry and export the buildfile again. --><project basedir="." default="build" name="lucene477083">
+    <property environment="env"/>
+    <property name="ECLIPSE_HOME" value="../../"/>
+    <property name="junit.output.dir" value="junit"/>
+    <property name="debuglevel" value="source,lines,vars"/>
+    <property name="target" value="1.7"/>
+    <property name="source" value="1.7"/>
+    <path id="lucene477083.classpath">
+        <pathelement location="bin"/>
+        <pathelement location="contrib/ant/lib/Tidy.jar"/>
+        <pathelement location="contrib/benchmark/lib/commons-beanutils-1.7.0.jar"/>
+        <pathelement location="contrib/benchmark/lib/commons-collections-3.1.jar"/>
+        <pathelement location="contrib/benchmark/lib/commons-digester-1.7.jar"/>
+        <pathelement location="contrib/benchmark/lib/commons-logging-1.0.4.jar"/>
+        <pathelement location="contrib/gdata-server/lib/commons-beanutils.jar"/>
+        <pathelement location="contrib/gdata-server/lib/commons-collections-3.2.jar"/>
+        <pathelement location="contrib/gdata-server/lib/commons-digester-1.7.jar"/>
+        <pathelement location="contrib/gdata-server/lib/commons-logging-1.1.jar"/>
+        <pathelement location="contrib/gdata-server/lib/gdata-client-1.0.jar"/>
+        <pathelement location="contrib/gdata-server/lib/log4j-1.2.13.jar"/>
+        <pathelement location="contrib/gdata-server/lib/nekohtml.jar"/>
+        <pathelement location="contrib/gdata-server/lib/servlet-api.jar"/>
+        <pathelement location="contrib/gdata-server/lib/xercesImpl.jar"/>
+        <pathelement location="contrib/lucli/lib/jline.jar"/>
+        <pathelement location="contrib/regex/lib/jakarta-regexp-1.4.jar"/>
+        <pathelement location="site/lib/jdom-b7.jar"/>
+        <pathelement location="site/lib/velocity-1.3-dev.jar"/>
+        <pathelement location="lib/junit-3.8.2.jar"/>
+    </path>
+    <target name="init">
+        <mkdir dir="bin"/>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src/demo">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src/java">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+        <copy includeemptydirs="false" todir="bin">
+            <fileset dir="src/test">
+                <exclude name="**/*.launch"/>
+                <exclude name="**/*.java"/>
+            </fileset>
+        </copy>
+    </target>
+    <target name="clean">
+        <delete dir="bin"/>
+    </target>
+    <target depends="clean" name="cleanall"/>
+    <target depends="build-subprojects,build-project" name="build"/>
+    <target name="build-subprojects"/>
+    <target depends="init" name="build-project">
+        <echo message="${ant.project.name}: ${ant.file}"/>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">
+            <src path="src/demo"/>
+            <classpath refid="lucene477083.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">
+            <src path="src/java"/>
+            <classpath refid="lucene477083.classpath"/>
+        </javac>
+        <javac debug="true" debuglevel="${debuglevel}" destdir="bin" source="${source}" target="${target}">
+            <src path="src/test"/>
+            <classpath refid="lucene477083.classpath"/>
+        </javac>
+    </target>
+    <target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects"/>
+    <target description="copy Eclipse compiler jars to ant lib directory" name="init-eclipse-compiler">
+        <copy todir="${ant.library.dir}">
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </copy>
+        <unzip dest="${ant.library.dir}">
+            <patternset includes="jdtCompilerAdapter.jar"/>
+            <fileset dir="${ECLIPSE_HOME}/plugins" includes="org.eclipse.jdt.core_*.jar"/>
+        </unzip>
+    </target>
+    <target description="compile project with Eclipse compiler" name="build-eclipse-compiler">
+        <property name="build.compiler" value="org.eclipse.jdt.core.JDTCompilerAdapter"/>
+        <antcall target="build"/>
+    </target>
+    <target name="Driver651">
+    	 <java classname="driver651.Driver651" failonerror="true" fork="yes">
+    	            <jvmarg line="-Xmx15g"/>
+    	            <arg line="1"/>
+    	            <classpath refid="lucene477083.classpath"/>
+    	        </java>
+    	 <java classname="driver651.Driver651" failonerror="true" fork="yes">
+    	            <jvmarg line="-Xmx15g"/>
+    	            <arg line="2"/>
+    	            <classpath refid="lucene477083.classpath"/>
+    	        </java>
+    	 <java classname="driver651.Driver651" failonerror="true" fork="yes">
+    	            <jvmarg line="-Xmx15g"/>
+    	            <arg line="4"/>
+    	            <classpath refid="lucene477083.classpath"/>
+    	        </java>
+    	 <java classname="driver651.Driver651" failonerror="true" fork="yes">
+    	            <jvmarg line="-Xmx15g"/>
+    	            <arg line="8"/>
+    	            <classpath refid="lucene477083.classpath"/>
+    	        </java>
+    	 <java classname="driver651.Driver651" failonerror="true" fork="yes">
+    	            <jvmarg line="-Xmx15g"/>
+    	            <arg line="12"/>
+    	            <classpath refid="lucene477083.classpath"/>
+    	        </java>
+        <java classname="driver651.Driver651" failonerror="true" fork="yes">
+            <jvmarg line="-Xmx15g"/>
+            <arg line="16"/>
+            <classpath refid="lucene477083.classpath"/>
+        </java>
+    </target>
+    <target name="TestExtendedFieldCache (1)">
+        <mkdir dir="${junit.output.dir}"/>
+        <junit fork="yes" printsummary="withOutAndErr">
+            <formatter type="xml"/>
+            <test name="org.apache.lucene.search.TestExtendedFieldCache" todir="${junit.output.dir}"/>
+            <classpath refid="lucene477083.classpath"/>
+        </junit>
+    </target>
+    <target name="TestExtendedFieldCache (2)">
+        <java classname="org.apache.lucene.search.TestExtendedFieldCache" failonerror="true" fork="yes">
+            <classpath refid="lucene477083.classpath"/>
+        </java>
+    </target>
+    <target name="junitreport">
+        <junitreport todir="${junit.output.dir}">
+            <fileset dir="${junit.output.dir}">
+                <include name="TEST-*.xml"/>
+            </fileset>
+            <report format="frames" todir="${junit.output.dir}"/>
+        </junitreport>
+    </target>
+</project>

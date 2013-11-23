@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/search/spans
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/asf/!svn/ver/150578/lucene/java/trunk/src/java/org/apache/lucene/search/spans/package.html
+END
+NearSpansOrdered.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/search/spans/NearSpansOrdered.java
+END
+SpanFirstQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/search/spans/SpanFirstQuery.java
+END
+SpanScorer.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/search/spans/SpanScorer.java
+END
+SpanTermQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/search/spans/SpanTermQuery.java
+END
+NearSpansUnordered.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/search/spans/NearSpansUnordered.java
+END
+Spans.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/search/spans/Spans.java
+END
+SpanQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/search/spans/SpanQuery.java
+END
+SpanNotQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/search/spans/SpanNotQuery.java
+END
+SpanOrQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/search/spans/SpanOrQuery.java
+END
+SpanWeight.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/search/spans/SpanWeight.java
+END
+SpanNearQuery.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/search/spans/SpanNearQuery.java
+END

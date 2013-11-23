@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/util
+END
+PriorityQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/util/PriorityQueue.java
+END
+StringHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/util/StringHelper.java
+END
+ScorerDocQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/util/ScorerDocQueue.java
+END
+ToStringUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/util/ToStringUtils.java
+END
+Constants.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/util/Constants.java
+END
+SmallFloat.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/asf/!svn/ver/349073/lucene/java/trunk/src/java/org/apache/lucene/util/SmallFloat.java
+END
+package.html
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/asf/!svn/ver/149570/lucene/java/trunk/src/java/org/apache/lucene/util/package.html
+END
+Parameter.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/util/Parameter.java
+END
+BitVector.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/asf/!svn/ver/472959/lucene/java/trunk/src/java/org/apache/lucene/util/BitVector.java
+END
